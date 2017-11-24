@@ -1,8 +1,8 @@
 # Site settings
 title: Lambda I/O Conf 2018
 description: Brazil's first FP conference
-baseurl: "https://lambda-io.github.io" # the subpath of your site, e.g. /blog
-url: "https://lambda-io.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "https://lambda-io.github.io/conf" # the subpath of your site, e.g. /blog
+url: "https://lambda-io.github.io/conf" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 event_name: Lambda I/O Conf 2018
