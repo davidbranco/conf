@@ -1,18 +1,14 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "http://localhost:3000/" # the subpath of your site, e.g. /blog
-url: "http://localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Lambda I/O Conf 2018
+description: Brazil's first FP conference
+baseurl: "https://lambda-io.github.io" # the subpath of your site, e.g. /blog
+url: "https://lambda-io.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+event_name: Lambda I/O Conf 2018
+event_description: Brazil's first functional programming conference
+event_date: September 29, 2018
+event_location: São Paulo, Brazil
 
 # Build settings
 markdown: kramdown

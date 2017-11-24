@@ -7,37 +7,75 @@ $bg
 	background main
 	height 100%
 	.content
-		width 95%
 		align(both)
 		text-align center
+		center(rem(1024px))
+    +below(rem(1024px))
+			padding-left rem(20px)
+			padding-right rem(20px)
 
 // Header home
 .header-site
 	@extends $bg
 	h1,h2
 		color: sec
-		text-align center
-	.site-title
-		font-size rem(60px)
-		line-height 1
-		margin-top -80px
-		display block
+		text-align left
+	.header-logo
 		+above(cut)
-			margin-bottom 0
-			font-size rem(100px)
-	.site-description
-		font-size rem(20px)
-		display block
-		margin rem(30px) 0
-		+above(cut)
-			font-size rem(40px)
-
+			column(3/10)
+		img
+			max-height: rem(315px)
+	.header-content
+		column(7/10)
+		.header-title
+			mainFont()
+			font-size rem(15px)
+			display block
+			margin rem(20px) 0
+			+above(cut)
+				font-size rem(30px)
+		.header-description
+			font-weight: bolder
+			font-size rem(24px)
+			display block
+			+above(cut)
+				margin rem(20px) 0
+				font-size rem(48px)
+		.header-subdescription
+			mainFont()
+			color: mediumGray
+			font-style: italic
+			font-size rem(12px)
+			display block
+			+above(cut)
+				margin-bottom 0
+				font-size rem(24px)
+		.action-buttons
+			margin rem(20px) 0
+			.left
+				+above(cut)
+					column(1/2)
+				.btn
+					background: redishOrange
+					a
+						mainFont()
+						color: main
+						text-decoration: none
+			.right
+				+above(cut)
+					column(1/2)
+				.btn
+					background: lightBlue
+					a
+						mainFont()
+						color: main
+						text-decoration: none
 // Header Post
 .header-post
 	@extends $bg
 	.content
 		+above(cut)
-			center(1000px)
+			center(1024px)
 	.subheader
 		display table
 		padding 20px
